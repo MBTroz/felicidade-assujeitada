@@ -1,0 +1,17 @@
+.before{
+    display: inline-flex;
+    align-items: center;
+    font-family: "Source Serif Pro", sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 30px; 
+}
+.before::before{
+        content: "";
+        width: 10px;
+        height: 10px;
+        background-color:#E39909;
+        margin-right: 10px;
+} 

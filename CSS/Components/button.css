@@ -1,0 +1,24 @@
+.button{
+    display: inline-flex;
+    align-items: center;
+    background-color: #F25A70;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0 0 #000;
+    transition: background-color, color, transform;
+    transition-duration: 1s;
+    transition-delay: .2s ;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    font-family: "Source Serif Pro", sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.button:hover{
+    background-color:#FFF;
+    color: #F25A70;
+    transform: scale(1.05);
+}      

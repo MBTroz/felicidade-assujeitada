@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #B28A4D;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+}
+header img{
+    align-self: center;
+    /**by dedault it is set as stretch in chrome, since evrything is basically chromium based nowdays, do this**/
+}
+header li{
+    display: inline-flex;
+    list-style: none;
+       
+   } 
