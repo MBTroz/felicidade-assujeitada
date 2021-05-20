@@ -6,17 +6,13 @@
     height: 807px;
     border-bottom: 10px solid #000;
     padding-top: 115px;
-    padding-left: 90px;
-
-   
+    padding-left: 90px; 
 }
 
 .background .wrapper{
     display: flex;
     flex-direction: column;
-    width: 640px;
-    
-   
+    width: 640px;   
 }
 .background .navigation{
     display: flex;
