@@ -2,6 +2,7 @@
     display: inline-block;
     border: 5px solid #000;
     height: 40px;
+    min-width: 1fr;
     width: 320px;
     background-color: white;
   }

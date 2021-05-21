@@ -1,8 +1,10 @@
 .skill-container{
     margin-top: 42px;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     grid-template-columns: 1fr 1fr;
     gap: 38px 100px;
     grid-template-rows: 90px 90px 90px 90px;
+    justify-content: center;
 
 }

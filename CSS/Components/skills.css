@@ -1,6 +1,6 @@
 .skills{
     background-color: #A9906C;
-    height: 730px;
+    min-height: 730px;
     border-bottom: 10px solid #B38A4D;
     padding-left: 20%;
     padding-right: 20%;
