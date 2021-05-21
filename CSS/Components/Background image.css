@@ -12,6 +12,7 @@
 .background .wrapper{
     display: flex;
     flex-direction: column;
+    min-width: 627px;
     width: 40%;   
 }
 .background .navigation{
