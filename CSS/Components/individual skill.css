@@ -1,0 +1,9 @@
+.individual-skill{
+    display: flex;
+   justify-content: space-around;
+}
+
+.logo{
+    height: 90px;
+    width: 90px;
+}
