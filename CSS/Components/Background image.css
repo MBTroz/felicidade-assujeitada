@@ -12,8 +12,7 @@
 .background .wrapper{
     display: flex;
     flex-direction: column;
-    min-width: 627px;
-    width: 40%;   
+    width: 40vw;
 }
 .background .navigation{
     display: flex;
@@ -22,4 +21,5 @@
 
 .background #box{
     margin-bottom: 40px;
+    overflow: hidden;
 }
