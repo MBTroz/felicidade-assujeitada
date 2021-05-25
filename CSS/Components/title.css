@@ -1,8 +1,15 @@
 
-.title{
+.title {
     color: #A9906C;
     font-family: "Inter", sans-serif;
     font-size: 45px;
     font-weight: 700;
     text-shadow: 4px 4px 0 #000;
     }
+/** classes juntos sem espaço procura item com as duas, o espaço implica filhos**/
+.title.-second {
+        color:#fff;
+        padding-top: 54px;
+        text-align: center;
+        text-shadow: none;
+    }    
