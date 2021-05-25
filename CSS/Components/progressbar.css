@@ -1,21 +1,23 @@
 .progressbar{
     display: inline-block;
+    box-sizing: content-box;
+    background-color: #FFF;
     border: 5px solid #000;
     height: 40px;
     min-width: 1fr;
     width: 320px;
-    background-color: white;
-  }
-  .progressbar-i{
+}
+
+.progressbar-i{
     display: inline-block;
     background-color: #F25A70;
     height: 40px;
 }
   .p1{
-  width: 55%;
+  width: 60%;
 }
   .p2{
-  width: 55%;
+  width: 60%;
 }
   .p3{
   width: 0%;
@@ -34,4 +36,21 @@
 }
   .p8{
   width: 30%;
+}
+
+/**como o marco fez, em teoria era para as classes estarem separadas pro vírgula, mas o opera explodiu**/
+
+
+.progressbar::-moz-progress-value{
+  background-color: #f25a70;
+}
+.progressbar::-webkit-progress-value 
+{
+  background-color: #f25a70;
+}
+.progressbar::-webkit-progress-bar{
+  background-color: #fff;
+} 
+.progressbar::-moz-progress-bar{
+  background-color: #fff;
 }
